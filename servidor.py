@@ -4,7 +4,7 @@ load_dotenv()  # Esto carga las variables del archivo .env automáticamente
 from fastapi import FastAPI, Request, Response, Query
 from uvicorn import run
 # Importamos la función principal del archivo anterior
-from BotUnica import ejecutar_ciclo_bot 
+from main import ejecutar_ciclo_bot 
 
 app = FastAPI()
 
